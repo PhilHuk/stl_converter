@@ -30,6 +30,6 @@ except:
 
 
 
-bpy.ops.import_mesh.stl(filepath=stl_in, axis_forward='X', axis_up='Z')     # import .stl
+bpy.ops.import_mesh.stl(filepath=stl_in, axis_forward='Y', axis_up='Z')     # import .stl
 bpy.ops.export_scene.obj(filepath=obj_out, use_blen_objects=True)           # export .obj
-bpy.ops.export_mesh.ply(filepath=ply_out, axis_forward='X', axis_up='Z')    # export .ply
+bpy.ops.export_mesh.ply(filepath=ply_out, axis_forward='Y', axis_up='Z')    # export .ply
