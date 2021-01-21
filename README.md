@@ -9,7 +9,7 @@ Python file that uses Blender to convert .stl to .obj and .ply
 
 # Run Code
 1. Change to directory where stl_converter.py is located.
-2. In terminal run: blender --background --python stl_converter.py -- <filepath_to_stl>.stl <filename>.obj <filename>.ply
+2. In terminal run: blender --background --python stl_converter.py -- <filepath_to_stl>filename.stl filename.obj filename.ply
   
 # Settings
 It is possible to change coordinates of the objects coordinate system. See blender docs for more information. 
